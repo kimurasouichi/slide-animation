@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css" />
+  <link rel="stylesheet" href="/style.css">
+  <style>
+    @keyframes infinity-scroll-left {
+      0% {
+        transform: translateX(100%);
+      }
+
+      to {
+        transform: translateX(0);
+      }
+    }
+
+    .wp-img-box,
+    .wp-img-wrap {
+      display: flex;
+      width: 100vw;
+      height: 150px;
+      overflow: hidden;
+      justify-content: center;
+    }
+
+    .flex-row {
+      display: flex;
+    }
+
+    .wp-img-box img,
+    .wp-img-wrap div {
+      animation: infinity-scroll-left 60s linear 0s infinite both;
+      height: auto;
+      max-width: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wp-img-box">
+    <img src="/illust_01.webp" alt="">
+    <img src="/illust_01.webp" alt="">
+    <img src="/illust_01.webp" alt="">
+  </div><!-- /.img-box -->
+
+  <div class="wp-img-wrap">
+    <div class="flex-row">
+      <img src="https://picsum.photos/500/200?random=1" alt="">
+      <img src="https://picsum.photos/500/200?random=2" alt="">
+      <img src="https://picsum.photos/500/200?random=3" alt="">
+      <img src="https://picsum.photos/500/200?random=4" alt="">
+      <img src="https://picsum.photos/500/200?random=5" alt="">
+      <img src="https://picsum.photos/500/200?random=6" alt="">
+      <img src="https://picsum.photos/500/200?random=7" alt="">
+      <img src="https://picsum.photos/500/200?random=8" alt="">
+      <img src="https://picsum.photos/500/200?random=9" alt="">
+      <img src="https://picsum.photos/500/200?random=10" alt="">
+    </div><!-- /.box -->
+    <div class="flex-row">
+      <img src="https://picsum.photos/500/200?random=1" alt="">
+      <img src="https://picsum.photos/500/200?random=2" alt="">
+      <img src="https://picsum.photos/500/200?random=3" alt="">
+      <img src="https://picsum.photos/500/200?random=4" alt="">
+      <img src="https://picsum.photos/500/200?random=5" alt="">
+      <img src="https://picsum.photos/500/200?random=6" alt="">
+      <img src="https://picsum.photos/500/200?random=7" alt="">
+      <img src="https://picsum.photos/500/200?random=8" alt="">
+      <img src="https://picsum.photos/500/200?random=9" alt="">
+      <img src="https://picsum.photos/500/200?random=10" alt="">
+
+    </div><!-- /.box -->
+    <div class="flex-row">
+      <img src="https://picsum.photos/500/200?random=1" alt="">
+      <img src="https://picsum.photos/500/200?random=2" alt="">
+      <img src="https://picsum.photos/500/200?random=3" alt="">
+      <img src="https://picsum.photos/500/200?random=4" alt="">
+      <img src="https://picsum.photos/500/200?random=5" alt="">
+      <img src="https://picsum.photos/500/200?random=6" alt="">
+      <img src="https://picsum.photos/500/200?random=7" alt="">
+      <img src="https://picsum.photos/500/200?random=8" alt="">
+      <img src="https://picsum.photos/500/200?random=9" alt="">
+      <img src="https://picsum.photos/500/200?random=10" alt="">
+    </div><!-- /.box -->
+  </div><!-- /.img-box -->
+</body>
+
+</html>
